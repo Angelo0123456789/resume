@@ -8,174 +8,168 @@
 \raggedright
 
 %  \renewcommand{\encodingdefault}{cg}
-  %\renewcommand{\rmdefault}{lgrcmr}
+%\renewcommand{\rmdefault}{lgrcmr}
 
 \def\bull{\vrule height 0.8ex width .7ex depth -.1ex }
 
 % DEFINITIONS FOR RESUME %%%%%%%%%%%%%%%%%%%%%%%
 
 \newcommand{\area} [2] {
-  \vspace*{-9pt}
-  \begin{verse}
-    \textbf{#1}   #2
-  \end{verse} 
+    \vspace*{-9pt}
+    \begin{verse}
+        \textbf{#1}   #2
+    \end{verse}
 }
 
 \newcommand{\lineunder} {
-  \vspace*{-8pt} \\
-  \hspace*{-18pt} \hrulefill \\
+    \vspace*{-8pt} \\
+    \hspace*{-18pt} \hrulefill \\
 }
 
 \newcommand{\header} [1] {
-  {\hspace*{-18pt}\vspace*{6pt} \textsc{#1}} 
-  \vspace*{-6pt} \lineunder
+    {\hspace*{-18pt}\vspace*{6pt} \textsc{#1}}
+    \vspace*{-6pt} \lineunder
 }
 
 \newcommand{\employer} [3] {
-  { \textbf{#1} (#2)\\ \underline{\textbf{\emph{#3}}}\\  }
+    { \textbf{#1} (#2)\\ \underline{\textbf{\emph{#3}}}\\  }
 }
 
 \newcommand{\contact} [3] {
-  \vspace*{-10pt}
-  \begin{center}
-    {\Huge \scshape {#1}}\\
-    #2 \\ #3
-  \end{center}
-  \vspace*{-8pt}
+    \vspace*{-10pt}
+    \begin{center}
+        {\Huge \scshape {#1}}\\
+        #2 \\ #3
+    \end{center}
+    \vspace*{-8pt}
 }
 
 \newenvironment{achievements}{
-  \begin{list}
-    {$\bullet$}{\topsep 0pt \itemsep -2pt}}{\vspace*{4pt}
-  \end{list}
+    \begin{list}
+        {$\bullet$}{\topsep 0pt \itemsep -2pt}}{\vspace*{4pt}
+    \end{list}
 }
 
 \newcommand{\schoolwithcourses} [4] {
-   \textbf{#1} #2 $\bullet$ #3\\ 
-  #4 \\
-  \vspace*{5pt}
+    \textbf{#1} #2 $\bullet$ #3\\
+    #4 \\
+    \vspace*{5pt}
 }
 
 \newcommand{\school} [4] {
-   \textbf{#1} #2 $\bullet$ #3\\ 
-  #4 \\
+    \textbf{#1} #2 $\bullet$ #3\\
+    #4 \\
 }
 % END RESUME DEFINITIONS %%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{document}
 
-%\small
-%\smallskip
-\vspace*{-40pt}
+    %\small
+    %\smallskip
+    \vspace*{-40pt}
 
-\contact{ Saad Quadri}
-{Metuchen NJ, 08840 $\cdot$ (732)~476~8719 \\
-saad@saadquadri.com $\cdot$ github.com/saadq}
-
-
-%%%%%%%%%%%%%%%
-%% Education %%
-%%%%%%%%%%%%%%%
-
-\header{Education}
-
-\vspace{1mm}
-
-\textbf{Rutgers University} \hfill New Brunswick, NJ \\
-
-BS Computer Science \hfill Expected: May 2017 \\
-
-\vspace{1mm}
-
-\textbf{Middlesex County College} \hfill Edison, NJ \\
-
-AS Computer Science \hfill Sept 2013 - May 2015 \\
-
-\vspace{3mm}
-
-%%%%%%%%%%%%%%%%%%
-%% Work History %%
-%%%%%%%%%%%%%%%%%%
-
-\header{Work Experience}
-      \vspace{1mm}
-            {\textbf{IEEE}} \hfill  Piscataway, NJ \\
-            \textit{Application Developer} \hfill Aug 2015 | Present \\
-            \textit{Application Developer Intern} \hfill Jun 2015 | Aug 2015
-            \vspace{-1mm}
-            \begin{itemize} \itemsep 1pt
-                \item Created web content with JavaServer Pages and HTML/CSS/JavaScript while following responsive design practices within the Liferay Java CMS.
-                \item Redesigned the article template to dynamically create author blocks for each author of an article in order to display their personal info in an organized fashion.
-                \item Enhanced the sliding carousel components for better interaction on mobile and tablet devices.
-                \item Authored documentation on setting up a development environment for future interns and full-time developers.
-            \end{itemize}
-
-            {\textbf{Johnson \& Johnson} \hfill New Brunswick, NJ \\
-            \textit{Web Developer Intern} \hfill Jan 2015 | Jun 2015
-            \vspace{-1mm}
-            \begin{itemize} \itemsep 1pt
-                \item Developed static web pages for jnj's Engineering Network and Project Management Network websites used by thousands of jnj employees worldwide.
-                \item Improved existing web pages by migrating inline-styling to external CSS files, and adding cross-browser compatibility.
-                \item Created SharePoint front-ends with HTML, CSS, and JavaScript and utilized the jQuery UI library to create responsive widgets.
-                \item Debugged original code base as the sole developer on the team and created a standard for SharePoint web part development for future employees.
-            \end{itemize}
+    \contact{ Saad Quadri}
+    {Metuchen NJ, 08840 $\cdot$ (732)~476~8719 \\
+    saad@saadquadri.com $\cdot$ github.com/saadq}
 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% Miscellaneous Abilities %%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    %%%%%%%%%%%%%%%
+    %% Education %%
+    %%%%%%%%%%%%%%%
 
-\header{Skills}
+    \header{Education}
+
+        \vspace{1mm}
+
+        \textbf{Rutgers University} \hfill New Brunswick, NJ \\
+
+        BS Computer Science \hfill Expected: May 2017 \\
+
+        \vspace{1mm}
+
+        \textbf{Middlesex County College} \hfill Edison, NJ \\
+
+        AS Computer Science \hfill Sept 2013 - May 2015 \\
+
+    \vspace{3mm}
+
+    %%%%%%%%%%%%%%%%%%
+    %% Work History %%
+    %%%%%%%%%%%%%%%%%%
+
+    \header{Work Experience}
+        \vspace{1mm}
+        {\textbf{IEEE}} \hfill  Piscataway, NJ \\
+        \textit{Application Developer} \hfill Aug 2015 | Present \\
+        \textit{Application Developer Intern} \hfill Jun 2015 | Aug 2015
+        \vspace{-1mm}
+        \begin{itemize} \itemsep 1pt
+            \item Created web content with JavaServer Pages and HTML/CSS/JavaScript while following responsive design practices within the Liferay Java CMS.
+            \item Redesigned the article template to dynamically create author blocks for each author of an article in order to display their personal info in an organized fashion.
+            \item Enhanced the sliding carousel components for better interaction on mobile and tablet devices.
+            \item Authored documentation on setting up a development environment for future interns and full-time developers.
+        \end{itemize}
+
+        {\textbf{Johnson \& Johnson} \hfill New Brunswick, NJ \\
+        \textit{Web Developer Intern} \hfill Jan 2015 | Jun 2015
+        \vspace{-1mm}
+        \begin{itemize} \itemsep 1pt
+            \item Developed static web pages for jnj's Engineering Network and Project Management Network websites used by thousands of jnj employees worldwide.
+            \item Improved existing web pages by migrating inline-styling to external CSS files, and adding cross-browser compatibility.
+            \item Created SharePoint front-ends with HTML, CSS, and JavaScript and utilized the jQuery UI library to create responsive widgets.
+            \item Debugged original code base as the sole developer on the team and created a standard for SharePoint web part development for future employees.
+        \end{itemize}
 
 
-            {Programming Languages:} $\:$ Java, JavaScript/Node.js, Ruby, XML, HTML, SASS, CSS, C \vspace{1mm}
-            {\\Frameworks/Libraries:} $\:$ $\:$ $\:$ $\:$Express, React, Sinatra, jQuery, Bootstrap, Materialize\vspace{1mm}
-            {\\Software/Tools/IDEs:} $\:$ $\:$ $\:$ $\:$ Terminal, Sublime Text, Vim, Eclipse, Git, SVN, MongoDB
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    %% Miscellaneous Abilities %%
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-  
-  
-  \vspace{4mm}
+    \header{Skills}
 
+    {Programming Languages:} $\:$ Java, JavaScript/Node.js, Ruby, XML, HTML, SASS, CSS, C \vspace{1mm}
+    {\\Frameworks/Libraries:} $\:$ $\:$ $\:$ $\:$Express, React, Sinatra, jQuery, Bootstrap, Materialize\vspace{1mm}
+    {\\Software/Tools/IDEs:} $\:$ $\:$ $\:$ $\:$ Terminal, Sublime Text, Vim, Eclipse, Git, SVN, MongoDB
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% Miscellaneous Acheivements %%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    \vspace{4mm}
 
-\header{Projects}
-      Source code and other projects available at github.com/saadq \\
-      \vspace{2mm}
-      {\textbf{Cube Graphs}, \sl Node.js, Express, React, Chart.js, MongoDB}  \hfill In Progress  \\ 
-                A Rubik's Cube timer for speedcubers that visualizes a user's cubing stats with graphs.  \\
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    %% Miscellaneous Acheivements %%
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\vspace{2mm}
+    \header{Projects}
+    Source code and other projects available at github.com/saadq \\
+    \vspace{2mm}
+    {\textbf{Cube Graphs}, \sl Node.js, Express, React, Chart.js, MongoDB}  \hfill In Progress  \\
+    A Rubik's Cube timer for speedcubers that visualizes a user's cubing stats with graphs.  \\
 
-            {\textbf{Reddit Scraper}, \sl Ruby, Sinatra}  \hfill git.io/vmzmQ  \\
-            
-                A Sinatra web app that lets the user easily view images/videos from a subreddit. \\ 
+    \vspace{2mm}
 
-                
-                \vspace{2mm}
+    {\textbf{Reddit Scraper}, \sl Ruby, Sinatra}  \hfill git.io/vmzmQ  \\
 
-            {\textbf{Personal Website}, \sl Jekyll}  \hfill saadquadri.com  \\ 
-                A minimal, responsive portfolio website used to display and host projects. \\
-                
-                \vspace{2mm}
+    A Sinatra web app that lets the user easily view images/videos from a subreddit. \\
 
-            {\textbf{Anagrams}, \sl HTML, CSS, JavaScript}  \hfill git.io/vmzqj  \\
-            
-                A cognitive, anagram-recognition game where the player must quickly find the answer. \\ 
+    \vspace{2mm}
 
-\vspace{2mm}
+    {\textbf{Personal Website}, \sl Jekyll}  \hfill saadquadri.com  \\
+    A minimal, responsive portfolio website used to display and host projects. \\
 
-            {\textbf{Hex Guess}, \sl HTML, CSS, JavaScript} \hfill git.io/vmzWO \\
-            
-                A game that tests the player's knowledge of hexadeximal color values.
- 
-\vspace{2mm}
-                
-                        {\textbf{Materialize}, \sl XML, JSON} \hfill git.io/vnv9F \\
-                        
-                A collection of custom themes and color schemes for Sublime Text, inspired by Material design.
+    \vspace{2mm}
 
+    {\textbf{Anagrams}, \sl HTML, CSS, JavaScript}  \hfill git.io/vmzqj  \\
+
+    A cognitive, anagram-recognition game where the player must quickly find the answer. \\
+
+    \vspace{2mm}
+
+    {\textbf{Hex Guess}, \sl HTML, CSS, JavaScript} \hfill git.io/vmzWO \\
+
+    A game that tests the player's knowledge of hexadeximal color values.
+
+    \vspace{2mm}
+
+    {\textbf{Materialize}, \sl XML, JSON} \hfill git.io/vnv9F \\
+
+    A collection of custom themes and color schemes for Sublime Text, inspired by Material design.
 
 \end{document}
