@@ -1,3 +1,11 @@
 resume.aux
 resume.log
 resume.synctex.gz
+.DS_Store
+anon.aux
+anon.log
+anon.pdf
+anon.png
+anon.synctex.gz
+anon.tex
+resume.fdb_latexmk
