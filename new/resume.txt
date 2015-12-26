@@ -1,0 +1,77 @@
+Saad Quadri
+saadquadri.com | github.com/saadq
+saad@saadquadri.com | (732) 476-8719
+
+EDUCATION
+RUTGERS UNIVERSITY | BS COMPUTER SCIENCE
+NEW BRUNSWICK, NJ
+EXP: MAY 2017
+
+EXPERIENCE
+IEEE | APPLICATION DEVELOPER
+PISCATAWAY, NJ
+AUG 2015 – PRESENT
+• Wrote a wrapper around an API that allowed CRUD operations to be used for accessing and manipulating data
+involving current departments/groups/teams at IEEE with Java.
+• Created a UI for admins that used the aforementioned API to automate the process of syncing
+departments/groups/teams on the site to relevant databases.
+• Improved the IEEE Innovate site by using cookies to display tailored web-content.
+
+IEEE | APPLICATION DEVELOPER INTERN
+PISCATAWAY, NJ
+JUN 2015 – AUG 2015
+• Created web content with JavaServer Pages and HTML/CSS/JavaScript while following responsive design
+practices within the Liferay Java CMS.
+• Redesigned the article template to dynamically create author blocks for each author of an article in order to
+display their personal info in an organized fashion
+• Enhanced multiple websites for better interaction on mobile and tablet devices.
+
+JOHNSON & JOHNSON | WEB DEVELOPER INTERN
+NEW BRUNSWICK, NJ
+JAN 2015 – JUN 2015
+• Improved existing web pages by migrating inline-styling to external CSS ﬁles, and adding cross-browser
+compatibility.
+• Created SharePoint front-ends with HTML, CSS, and JavaScript and utilized the jQuery UI library to create
+responsive widgets.
+• Debugged original code base as the sole developer on the team and created a standard for SharePoint web part
+development for future employees.
+
+SKILLS
+LANGUAGES (PROFICIENT)
+Java, JavaScript/Node.js, Ruby,
+HTML, CSS, SASS
+
+LANGUAGES (FAMILIAR)
+Python, C, SQL
+
+FRAMEWORKS/LIBRARIES
+Express, Sinatra, React, jQuery,
+underscore, Bootstrap
+
+SOFTWARE
+Terminal, Git/GitHub, SVN,
+MongoDB
+
+IDES/TEXT EDITORS
+Sublime Text, Vim, Eclipse, IntelliJ
+
+
+PROJECTS
+CUBE STATS
+sA Rubik’s Cube timer for speedcubers that visualizes a user’s cubing stats
+with graphs. Created with Node.js, Express, React, MongoDB.
+
+REDDIT SCRAPER
+A web app that lets the user easily view images/videos from a subreddit.
+Created with Ruby and Sinatra.
+
+ANAGRAMS
+A cognitive, anagram-recognition game where the player must quickly ﬁnd
+the answer. Created with HTML/CSS/JavaScript using MVC.
+
+HEX GUESS
+A game that tests the player’s knowledge of hexadeximal color values.
+Created with HTML/CSS/JavaScript using MVC.
+
+PERSONAL WEBSITE
+Portfolio website used to host personal projects. Created with Jekyll.
