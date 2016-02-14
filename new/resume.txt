@@ -1,77 +1,73 @@
+
 Saad Quadri
-saadquadri.com | github.com/saadq
-saad@saadquadri.com | (732) 476-8719
+
+saadquadri.com   github.com/saadq
+saad@saadquadri.com   (732) 476-8719
+
+======================================
 
 EDUCATION
-RUTGERS UNIVERSITY | BS COMPUTER SCIENCE
+RUTGERS UNIVERSITY
+BS COMPUTER SCIENCE
 NEW BRUNSWICK, NJ
 EXP: MAY 2017
 
+======================================
+
 EXPERIENCE
-IEEE | APPLICATION DEVELOPER
-PISCATAWAY, NJ
-AUG 2015 – PRESENT
-• Wrote a wrapper around an API that allowed CRUD operations to be used for accessing and manipulating data
-involving current departments/groups/teams at IEEE with Java.
-• Created a UI for admins that used the aforementioned API to automate the process of syncing
-departments/groups/teams on the site to relevant databases.
-• Improved the IEEE Innovate site by using cookies to display tailored web-content.
+Codecademy
+Engineering Advisor
+Manhattan, NY
+Dec 2015 - Present
 
-IEEE | APPLICATION DEVELOPER INTERN
-PISCATAWAY, NJ
-JUN 2015 – AUG 2015
-• Created web content with JavaServer Pages and HTML/CSS/JavaScript while following responsive design
-practices within the Liferay Java CMS.
-• Redesigned the article template to dynamically create author blocks for each author of an article in order to
-display their personal info in an organized fashion
-• Enhanced multiple websites for better interaction on mobile and tablet devices.
+IEEE
+Application Developer
+Piscataway, NJ
+AUG 2015 - DEC 2015
 
-JOHNSON & JOHNSON | WEB DEVELOPER INTERN
-NEW BRUNSWICK, NJ
-JAN 2015 – JUN 2015
-• Improved existing web pages by migrating inline-styling to external CSS ﬁles, and adding cross-browser
-compatibility.
-• Created SharePoint front-ends with HTML, CSS, and JavaScript and utilized the jQuery UI library to create
-responsive widgets.
-• Debugged original code base as the sole developer on the team and created a standard for SharePoint web part
-development for future employees.
+IEEE
+Application Developer Intern
+Piscataway, NJ
+Jun 2015 - Aug 2015
+
+Johnson & Johnson
+Web Developer Intern
+New Brunswick, NJ
+Jan 2015 - Jun 2015
+
+======================================
 
 SKILLS
-LANGUAGES (PROFICIENT)
-Java, JavaScript/Node.js, Ruby,
-HTML, CSS, SASS
-
-LANGUAGES (FAMILIAR)
-Python, C, SQL
+LANGUAGES
+Java,JavaScript,Ruby,HTML, XML,CSS,Python
 
 FRAMEWORKS/LIBRARIES
-Express, Sinatra, React, jQuery,
-underscore, Bootstrap
+Node,Express,React,Redux,
+jQuery,underscore,Sinatra
 
 SOFTWARE
-Terminal, Git/GitHub, SVN,
-MongoDB
+CommandLine,Git/GitHub,SVN,
+MongoDB,SublimeText,Vim
 
-IDES/TEXT EDITORS
-Sublime Text, Vim, Eclipse, IntelliJ
-
+======================================
 
 PROJECTS
-CUBE STATS
-sA Rubik’s Cube timer for speedcubers that visualizes a user’s cubing stats
-with graphs. Created with Node.js, Express, React, MongoDB.
+Flow Timer
+Node.js, Express, MongoDB, React, Redux
+A Rubik’s Cube timer for speedcubers that visualizes a user’s cubing stats with graphs.
 
-REDDIT SCRAPER
-A web app that lets the user easily view images/videos from a subreddit.
-Created with Ruby and Sinatra.
+Reddit Image Scraper
+Ruby, Sinatra
+A web app that lets you view many images/videos from a subreddit all at once.
 
-ANAGRAMS
-A cognitive, anagram-recognition game where the player must quickly ﬁnd
-the answer. Created with HTML/CSS/JavaScript using MVC.
+Anagrams
+HTML, CSS, JavaScript
+A fun, score-based, and timed anagrams game.
 
-HEX GUESS
-A game that tests the player’s knowledge of hexadeximal color values.
-Created with HTML/CSS/JavaScript using MVC.
+Hex Guess
+HTML, CSS, JavaScript
+A challenging game that tests the player’s knowledge of hexadecimal color values.
 
-PERSONAL WEBSITE
-Portfolio website used to host personal projects. Created with Jekyll.
+Materialize
+XML, JSON
+Elegant themes for Sublime Text 3 inspired by Material design. 11k+ installations.
