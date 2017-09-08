@@ -1,0 +1,153 @@
+\documentclass[a4paper]{article}
+    \usepackage{fullpage}
+    \usepackage{amsmath}
+    \usepackage{amssymb}
+    \usepackage{textcomp}
+    \textheight=10in
+    \pagestyle{empty}
+    \raggedright
+
+    %\renewcommand{\encodingdefault}{cg}
+%\renewcommand{\rmdefault}{lgrcmr}
+
+\def\bull{\vrule height 0.8ex width .7ex depth -.1ex }
+
+% DEFINITIONS FOR RESUME %%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\area} [2] {
+    \vspace*{-9pt}
+    \begin{verse}
+        \textbf{#1}   #2
+    \end{verse}
+}
+
+\newcommand{\lineunder} {
+    \vspace*{-8pt} \\
+    \hspace*{-18pt} \hrulefill \\
+}
+
+\newcommand{\header} [1] {
+    {\hspace*{-18pt}\vspace*{6pt} \textsc{#1}}
+    \vspace*{-6pt} \lineunder
+}
+
+\newcommand{\employer} [3] {
+    { \textbf{#1} (#2)\\ \underline{\textbf{\emph{#3}}}\\  }
+}
+
+\newcommand{\contact} [3] {
+    \vspace*{-10pt}
+    \begin{center}
+        {\Huge \scshape {#1}}\\
+        #2 \\ #3
+    \end{center}
+    \vspace*{-8pt}
+}
+
+\newenvironment{achievements}{
+    \begin{list}
+        {$\bullet$}{\topsep 0pt \itemsep -2pt}}{\vspace*{4pt}
+    \end{list}
+}
+
+\newcommand{\schoolwithcourses} [4] {
+    \textbf{#1} #2 $\bullet$ #3\\
+    #4 \\
+    \vspace*{5pt}
+}
+
+\newcommand{\school} [4] {
+    \textbf{#1} #2 $\bullet$ #3\\
+    #4 \\
+}
+    % END RESUME DEFINITIONS %%%%%%%%%%%%%%%%%%%%%%%
+
+    \begin{document}
+
+\vspace*{-40pt}
+
+%==== Profile ====%
+\vspace*{-10pt}
+\begin{center}
+	{\Huge \scshape {Saad Quadri}}\\
+	Metuchen, NJ $\cdot$ saad@saadq.com $\cdot$ (732) 476-8719 $\cdot$ github.com/saadq\\
+\end{center}
+
+\vspace*{2mm}
+
+%==== Education ====%
+\header{Education}
+\textbf{Rutgers University}\hfill New Brunswick, NJ\\
+BA Computer Science \hfill Grad: Jan 2019\\
+\vspace{2mm}
+
+\vspace*{2mm}
+
+%==== Experience ====%
+\header{Experience}
+\vspace{1mm}
+
+\textbf{Mozilla} \hfill Mountain View, CA\\
+\textit{Software Engineer Intern} \hfill Jun 2016 | Aug 2016\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+	\item Broadened search criteria for Firefox’s context menu to include subdomains in password suggestions.
+	\item Refactored disabled-host APIs to use the permission manager for both Firefox and Android’s Fennec.
+	\item Fixed regressions for Firefox Electrolysis and improved dialogs and notification popups.
+\end{itemize}
+
+\textbf{Codecademy} \hfill Manhattan, NY\\
+\textit{Coding Advisor} \hfill Dec 2015 | Present\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+	\item Created a JavaScript project for Codecademy Pro members now available in the new JS course.
+	\item Taught new coders how to avoid bugs and how to go through the process of fixing existing ones.
+	\item Reviewed general programming topics with students and provided assistance for lessons in React, JavaScript, Java, HTML, and CSS.
+\end{itemize}
+
+\textbf{IEEE} \hfill Piscataway, NJ\\
+\textit{Software Developer Intern} \hfill Jun 2015 | Nov 2015\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+	\item Wrote an API that allowed CRUD operations to be used for accessing and manipulating data involving current departments/groups/teams at IEEE.
+	\item Created a UI for admins that used the aforementioned API to automate the process of syncing departments/groups/teams on the site to relevant databases.
+	\item Improved the IEEE Innovate site by using cookies to display tailored web-content.
+\end{itemize}
+
+\textbf{Johnson \& Johnson} \hfill New Brunswick, NJ\\
+\textit{Web Developer Intern} \hfill Jan 2015 | Jun 2015\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+	\item Improved existing web pages by migrating inline-styling to external CSS files, and adding cross-browser compatibility.
+	\item Created SharePoint front-ends with HTML, CSS, and JavaScript and utilized the jQuery UI library to create responsive widgets.
+	\item Debugged original code base as the sole developer on the team and created a standard for SharePoint web part development for future employees.
+\end{itemize}
+
+\header{Skills}
+\begin{tabular}{ l l }
+	Programming Languages:      & JavaScript, Java, HTML, CSS, Ruby             \\
+	Frameworks/Libraries/Tools: & Node.js, Koa, Express, React, Redux, Flowtype \\
+\end{tabular}
+
+\vspace*{2mm}
+
+\header{Projects}
+{\textbf{LaTeX Resume Generator} \sl Node.js, Koa, React, Redux} \hfill https://latexresu.me\\
+A webapp for automatically generating LaTeX resumes (including this one). Featured on Mashable.\\
+\vspace*{2mm}
+{\textbf{Zen Cuber} \sl Node.js, Koa, React, Redux} \hfill https://github.com/saadq/zencuber\\
+A modern speedcubing app with a scrambler, timer, and analyzer for cubing statistics.\\
+\vspace*{2mm}
+{\textbf{Invoice Generator} \sl JavaScript, Chrome APIs} \hfill https://goo.gl/7ZjqOT\\
+A chrome extension used to automate the process of generating an invoice for Codecademy Advisors.\\
+\vspace*{2mm}
+{\textbf{Materialize} \sl XML, JSON} \hfill https://packagecontrol.io/packages/Materialize\\
+A collection of custom themes for Sublime Text, inspired by Material design with 70k+ installations.\\
+\vspace*{2mm}
+
+\vspace*{2mm}
+
+        
+
+\ 
+\end{document}
